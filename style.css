@@ -1,0 +1,93 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    text-align: center;
+    padding: 10px 16px;
+    background: #87ceeb;
+    color: #ffffff;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+/* .sender {
+
+} */
+
+input[type=text] {
+ width: 500px;
+}
+input#messageContent {
+  height: 400px;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  text-align: center;
+}
+
+#aboutMe {
+  text-align: justify;
+}
+
+#contact {
+  text-align: center;
+}
+
+#email {
+  display: inline-block;
+}
+
+#willImg {
+  margin: 5px;
+  float: right;
+  width: 15%;
+  height: auto;
+}
+
+/*NavBar*/
+.navbar {
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  background-color: #87ceeb;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
